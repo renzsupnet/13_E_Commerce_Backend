@@ -4,6 +4,10 @@ const Category = require('./Category');
 const Tag = require('./Tag');
 const ProductTag = require('./ProductTag');
 
+/* SET NULL on delete has been used to make data chunks re-usable rather than
+deleting all related records i.e deleting a category will not delete all associated
+products.*/
+
 // Products belongsTo Category
 Product.belongsTo(Category, {
   foreignKey: 'category_id',

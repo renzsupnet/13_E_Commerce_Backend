@@ -1,5 +1,5 @@
 require('dotenv').config();
-
+// Use environment variables to hide secrets
 const Sequelize = require('sequelize');
 
 const sequelize = process.env.DB_URL
