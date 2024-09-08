@@ -1,5 +1,5 @@
 const { Product } = require('../models');
-
+// This populates the product table
 const productData = [
   {
     product_name: 'Plain T-Shirt',

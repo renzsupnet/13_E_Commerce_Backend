@@ -1,5 +1,5 @@
 const { ProductTag } = require('../models');
-
+// This populates the productTag table
 const productTagData = [
   {
     product_id: 1,
